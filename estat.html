@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.mySlides {display:none;}
 </style>
 </head>
 <body class="w3-light-grey">
@@ -30,6 +31,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
     <a href="estat.html" class="w3-bar-item w3-button w3-hide-small w3-teal">Estatuto do Idoso</a>
+    <a href="mulheres.html" class="w3-bar-item w3-button w3-hide-small w3-black">Mulheres</a>
   </div>
 </div>
 <header class="w3-container w3-center w3-padding-32"> 
@@ -46,39 +48,67 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <div class="w3-col l8 s12">
   <!-- Blog entry -->
   <div class="w3-container">
-  <div class="w3-card-4 w3-margin w3-white w3-center"><br>
-    <iframe src="https://onedrive.live.com/embed?resid=4FF763669AE18514%217020&amp;authkey=!AEdzbJ5UIikxQr8&amp;em=2&amp;wdAr=1.7777777777777777" width="500px" height="300px" frameborder="0">Este é um apresentação do 
-      <a target="_blank" href="https://office.com">Microsoft Office</a> incorporado, da plataforma <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
-    <div class="w3-container">
-      <h3><b>Aqui será apresentado os direitos, sites e o que é estatuto do idoso</b></h3>
-      <h5>Quando foi criado o estatuto: <span class="w3-opacity">O Estatuto do Idoso foi criado no Brasil e promulgado em 1º de outubro de 2003.</span></h5>
-    </div>
-
-    <div class="w3-container">
-            <div class="  w3-center">
-               <p><a href="resest.html" class="w3-button w3-padding-large w3-center w3-white w3-border"><b>Breve resumo</b></a></p>
-            </div>
+    <div class="w3-card-4 w3-margin w3-white w3-center"><br>
+        <div class="w3-content w3-section" style="max-width:500px">
+          <div class="w3-content w3-section" style="max-width:500px">
+            <img class="mySlides" src="e1.png" style="width:100%">
+            <img class="mySlides" src="e2.png" style="width:100%">
+            <img class="mySlides" src="e3.png" style="width:100%">
+            <img class="mySlides" src="e4.png" style="width:100%">
+            <img class="mySlides" src="e5.png" style="width:100%">
+            <img class="mySlides" src="e6.png" style="width:100%">
+            <img class="mySlides" src="e7.png" style="width:100%">
+            <img class="mySlides" src="e8.png" style="width:100%">
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 3000); // Change image every 2 seconds
+          }
+          </script>
         </div>
-    </div>
+        <div class="w3-container">
+          <h3><b>Aqui será apresentado os direitos, sites e o que é estatuto do idoso</b></h3>
+          <h5>Quando foi criado o estatuto: <span class="w3-opacity">O Estatuto do Idoso foi criado no Brasil e promulgado em 1º de outubro de 2003.</span></h5>
+        </div>
+
+        <div class="w3-container">
+              <div class="  w3-center">
+                <p><a href="resest.html" class="w3-button w3-padding-large w3-center w3-white w3-border"><b>Breve resumo</b></a></p>
+              </div>
+        </div>
+      </div>
   </div>
 </div>
+
 <!-- Introduction menu -->
 <div class="w3-col l4">
   <!-- About Card -->
   <div class="w3-card w3-margin w3-margin-top">
     <div class="w3-container w3-white">
-      <h4><b>Olá seja bem vindo ao nosso site de acessibilidade<br> e inclusão</b></h4>
-      <p>Nesta página será apresentado os direitos do estatuto do idoso, como foi criado, a data de quando foi aceita, quais são os objetivos, quais as propostas de direitos, o que fazer caso é rejeitado
+      <h3><b>Logo abaixo é apresentado os tópicos que serão trabalhados</b></h3>
+      <p>Como foi criado, a data de quando foi aceita, quais são os objetivos, quais as propostas de direitos, o que fazer caso é rejeitado
         ou quando a pessoa idosa é desrespeitada e os sites que são indicados para saber de todos os seus direitos como idoso e as formas de como se "proteger" de abusos e atos contra as pessoas de idade avançada.
       </p>
     </div>
   </div><hr>
   <hr> 
-  <div class="w3-card w3-center w3-margin-top">
+  <div class="w3-card w3-margin w3-center w3-margin-top">
     <div class="w3-container w3-white">
-      <h4><b>Integrantes do site e slide:</b></h4>
+      <h4><b>Integrantes do grupo :</b></h4>
       <h4><p>Israel Silva, Thales H., Felipe / 2°MT </p></h4>
-      <img src="cambada.jpeg" alt=""width="70%">
+      <img src="cambada.jpeg" alt=""width="70%"><br><br><br>
     </div>
   </div><hr>
 
@@ -93,10 +123,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top"><br><br><br>
+<footer class="w3-container w3-dark-grey"><br>
 <a href="barr.html"><button class="w3-button w3-black w3-padding-large w3-margin-bottom">Anterior </button></a> 
+<a href="mulheres.html"><button class="w3-button w3-black w3-padding-large w3-margin-bottom"> Próximo </button></a>
  </a> 
-  <p><a href="https://www.w3schools.com/w3css/default.asp" target="_blank"></a></p>
 </footer>
 </body>
 </html>

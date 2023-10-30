@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Inclusão e Acessibilidade</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+  body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+  body {
+      margin: 0;
+      padding: 0;
+      position: relative;
+  }
+  footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #333; /* Altere a cor de fundo desejada */
+      color: #fff; /* Altere a cor do texto desejada */
+      
+      padding: 10px 0;
+  }
+  </style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme-d2 w3-left-align w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button "><i class="fa fa-home w3-margin-right"></i>Acessibilidade</a>
+    <a href="pt2.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Inclusão</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <a href="barr.html"><button class="w3-button" title="Notifications">6 barreiras <i class="fa fa-caret-down"></i></button></a>
+      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+        <a href="barr.html" class="w3-bar-item w3-button">Acessibilidade arquitetônica</a>
+        <a href="barr.html" class="w3-bar-item w3-button">Acessibilidade comunicacional</a>
+        <a href="barr.html" class="w3-bar-item w3-button">Acessibilidade metodológica</a>
+        <a href="barr.html" class="w3-bar-item w3-button">Acessibilidade instrumental</a>
+        <a href="barr.html" class="w3-bar-item w3-button">Acessibilidade programática</a>
+        <a href="barr.html" class="w3-bar-item w3-button">Acessibilidade atitudinal</a>
+      </div>
+    </div>
+    <a href="estat.html" class="w3-bar-item w3-button w3-hide-small w3-black">Estatuto do Idoso</a>
+    <a href="mulheres.html" class="w3-bar-item w3-button w3-hide-small w3-teal">Mulheres</a>
+  </div>
+</div>
+<header class="w3-container w3-center w3-padding-32"> 
+
+</header>
+<!-- Grid -->
+<div class="w3-row">
+
+  <!-- Blog entries -->
+  <div class="w3-col l8 s12">
+    <!-- Blog entry -->
+    <div class="w3-container">
+    <div class="w3-card-4 w3-margin w3-white w3-center"><br>
+      <div class="w3-content w3-section" style="max-width:500px">
+        <div class="w3-content w3-section" style="max-width:500px">
+          <img class="mySlides" src="m1.png" style="width:100%">
+          <img class="mySlides" src="m2.png" style="width:100%">
+          <img class="mySlides" src="m3.png" style="width:100%">
+          <img class="mySlides" src="m4.png" style="width:100%">
+          <img class="mySlides" src="m5.png" style="width:100%">
+          <img class="mySlides" src="m6.png" style="width:100%">
+          <img class="mySlides" src="m7.png" style="width:100%">
+          <img class="mySlides" src="m8.png" style="width:100%">
+          <img class="mySlides" src="m9.png" style="width:100%">
+          <img class="mySlides" src="m10.png" style="width:100%">
+          <img class="mySlides" src="m11.png" style="width:100%">
+          <img class="mySlides" src="m12.png" style="width:100%">
+        </div>
+        
+        <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+        </script>
+      </div>
+      <div class="w3-container">
+        <h3><b>Ao lado é mostrado um trecho do programa infantil 'O incrível mundo de Gumball' falando sobre as dificuldades das mulheres</b></h3>
+      </div>
+
+      <div class="w3-container">
+              <div class="  w3-center">
+                <p><a href="gumball.html" class="w3-button w3-padding-large w3-center w3-white w3-border"><b>Clique Aqui</b></a></p>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<footer class="w3-container w3-dark-grey"><br>
+<a href="estat.html"><button class="w3-button w3-black w3-padding-large w3-margin-bottom">Anterior </button></a> 
+
+</footer>
+</body>
+</html>
